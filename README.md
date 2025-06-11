@@ -2,7 +2,7 @@
 
 A modern real-time chat application built with Flutter and Supabase.
 
-## Features
+## ✨ Features
 
 - Real-time messaging
 - User authentication with Google Sign-In
@@ -11,7 +11,21 @@ A modern real-time chat application built with Flutter and Supabase.
 - Modern UI design
 - Cross-platform support
 
-## Getting Started
+## 📱 Screenshots
+
+<p align="center">
+  <img src="https://github.com/Zoz15/minimsg/blob/main/flutter_01.png" width="250"/>
+  <img src="https://github.com/Zoz15/minimsg/blob/main/flutter_02.png" width="250"/>
+  <img src="https://github.com/Zoz15/minimsg/blob/main/flutter_03.png" width="250"/>
+  <img src="https://github.com/Zoz15/minimsg/blob/main/flutter_04.png" width="250"/>
+  <img src="https://github.com/Zoz15/minimsg/blob/main/flutter_05.png" width="250"/>
+  <img src="https://github.com/Zoz15/minimsg/blob/main/flutter_06.png" width="250"/>
+  <img src="https://github.com/Zoz15/minimsg/blob/main/flutter_07.png" width="250"/>
+  <img src="https://github.com/Zoz15/minimsg/blob/main/flutter_08.png" width="250"/>
+  <img src="https://github.com/Zoz15/minimsg/blob/main/flutter_09.png" width="250"/>
+</p>
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -21,31 +35,7 @@ A modern real-time chat application built with Flutter and Supabase.
 
 ### Installation
 
-1. Clone the repository
-2. Run `flutter pub get`
-3. Run `flutter run`
-
-## Tech Stack
-
-- Flutter
-- GetX (State Management)
-- Supabase (Backend)
-- Google Sign-In
-- Shared Preferences
-- Material Design
-
-## Dependencies
-
-```yaml
-dependencies:
-  connectivity_plus: ^6.1.4
-  get: ^4.7.2
-  google_sign_in: ^6.2.1
-  intl: ^0.20.2
-  shared_preferences: ^2.5.3
-  supabase_flutter: ^2.9.0
-  timeago: ^3.7.1
-  uuid: ^4.3.3
-```
-
-## Project Structure
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Zoz15/minimsg.git
+   cd minimsg
