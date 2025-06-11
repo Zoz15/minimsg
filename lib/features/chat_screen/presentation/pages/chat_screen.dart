@@ -20,28 +20,11 @@ class BuildChatScreen extends StatelessWidget {
         const SizedBox(height: 50),
         buildTopBar(homeController),
         const SizedBox(height: 20),
-        Expanded(
-          child: Stack(
-            children: [
-              Column(
-                children: [buildStorys(chatController), buildRecentChat()],
-              ),
-              Positioned.fill(
-                child: Obx(
-                  () => AnimatedContainer(
-                    duration: const Duration(milliseconds: 300),
-                    margin: EdgeInsets.only(
-                      top: chatController.isExpanded.value ? 0 : 200,
-                    ),
-                    child: buildChats(
-                      chatController: chatController,
-                      scrollController: chatController.scrollController,
-                    ),
-                  ),
-                ),
-              ),
-            ],
-          ),
+        buildStorys(chatController),
+        buildRecentChat(),
+        buildChats(
+          chatController: chatController,
+          scrollController: chatController.scrollController,
         ),
       ],
     );

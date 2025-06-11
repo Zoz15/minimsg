@@ -8,12 +8,9 @@ Widget buildStoryCircle(String name, String emoji) {
         CircleAvatar(
           radius: 35,
           backgroundColor: Colors.white24,
-          child: Padding(
-            padding: const EdgeInsets.only(top: 10),
-            child: Text(
-              emoji,
-              style: const TextStyle(fontSize: 30, fontFamily: 'iphone'),
-            ),
+          child: Text(
+            emoji,
+            style: const TextStyle(fontSize: 30, fontFamily: 'iphone'),
           ),
         ),
         const SizedBox(height: 5),
